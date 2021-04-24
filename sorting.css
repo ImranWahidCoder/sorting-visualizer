@@ -1,0 +1,16 @@
+#bars
+{
+    padding: 10px;
+    margin: auto;
+    height: 100px;
+    border: 2px solid red;
+}
+.small_bar
+{
+    display: inline;
+    margin: 2px;
+    color: blanchedalmond;
+    border: 5px solid white;
+    width: 10px;
+    height: 100px;
+}
