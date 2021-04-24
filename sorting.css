@@ -3,6 +3,9 @@
     padding: 10px;
     margin: auto;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
     border: 2px solid red;
 }
 .small_bar
@@ -12,5 +15,4 @@
     color: blanchedalmond;
     border: 5px solid white;
     width: 10px;
-    height: 100px;
 }
