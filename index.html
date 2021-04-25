@@ -39,7 +39,10 @@
                             oninput="this.nextElementSibling.value = this.value; add_bar(this.value)" class="select">
                         <output class="emnei">1</output>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <p class="dropdown-item">Control the speed of operation</p>
+                        <input type="range" value="1" min="1" max="10"
+                            oninput="this.nextElementSibling.value = this.value;" class="speed">
+                        <output class="emnei">1</output>
                     </div>
                 </li>
             </ul>
@@ -63,9 +66,13 @@
         </div>
     </nav>
 
-    <div id="bars">
-    </div>
+    <div id="bars"></div>
     <script src="./js_files/sorting.js"></script>
+    <script src="./js_files/bubble.js"></script>
+    <script src="./js_files/insertion.js"></script>
+    <script src="./js_files/merge.js"></script>
+    <script src="./js_files/quick.js"></script>
+    <script src="./js_files/selection.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

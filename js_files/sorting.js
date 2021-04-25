@@ -1,11 +1,12 @@
+let arr=[];
+const main_bar=document.querySelector("#bars");
 const add_bar=(no_of_bar)=>
 {
-    let arr=[];
+    arr.splice(0,arr.length);
     for(i=0;i<no_of_bar;i++)
     {
-        arr.push(1+(Math.random()*300));
+        arr.push(Math.floor(1+(Math.random()*300)));
     }
-    const main_bar=document.querySelector("#bars");
     main_bar.innerHTML=null;
     for(i=0;i<no_of_bar;i++)
     {
