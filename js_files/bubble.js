@@ -1,5 +1,6 @@
 const bubSortbtn = document.querySelector(".bubble_sort");
 const speed_ = document.querySelector(".speed").value;
+let goti = (10 - speed_ + 1) * 100;
 bubSortbtn.addEventListener('click', async function () 
 {
     await bubble();
@@ -28,7 +29,6 @@ async function bubble()
             // parse int function returns a string
             if (parseInt(ele[j].style.height) > parseInt(ele[j + 1].style.height))
             {
-                let goti = (10 - speed_ + 1) * 10;
                 await animate(goti);
                 swap(ele[j], ele[j + 1]);
             }
