@@ -5,15 +5,15 @@ bubSortbtn.addEventListener('click', async function () {
     legend.innerHTML = `<table style="margin:1px auto">
     <tr>
         <td><div style="background: red;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Red bars represents the elements,currently compared</td>
+        <td>Red bars represent the elements,currently compared</td>
     </tr>
     <tr>
         <td><div style="background: yellow;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Yellow bars represents the elements,placed at correct position</td>
+        <td>Yellow bars represent the elements,placed at correct position</td>
     </tr>
     <tr>
         <td><div style="background: green;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Green bars represents the elements,to be placed at correct position</td>
+        <td>Green bars represent the elements,to be placed at correct position</td>
     </tr>
 </table>`
     await bubble();

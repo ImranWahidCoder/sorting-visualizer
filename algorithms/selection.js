@@ -5,15 +5,15 @@ sel_sort.addEventListener('click', async function () {
     legend.innerHTML = `<table style="margin:1px auto">
     <tr>
         <td><div style="background: yellow;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Yellow bars represents the current element</td>
+        <td>Yellow bars represent the current element</td>
     </tr>
     <tr>
         <td><div style="background: pink;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Pink bars represents the minimum element after the currently processing element</td>
+        <td>Pink bars represent the minimum element after the currently processing element</td>
     </tr>
     <tr>
         <td><div style="background: green;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Green bars represents the elements,placed at correct position</td>
+        <td>Green bars represent the elements,placed at correct position</td>
     </tr>
 </table>`
     await select_sort();

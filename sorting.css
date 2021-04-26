@@ -35,7 +35,7 @@
 }
 .detail
 {
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 3px 3px 20px 20px;
     background-color: blanchedalmond;
     padding: 10px;
     margin: auto;
@@ -53,16 +53,18 @@
     color: blanchedalmond;
     max-width: 30%;
     margin: 0px auto;
+    box-shadow: 5px 5px 5px gray;
 }
 .baki
 {
     margin: 1px auto;
     font-size: 20px;
     font-weight: bold;
+    text-shadow: 2px 2px 2px white;
 }
 .legend
 {
-    margin: 1px auto;
+    margin: 5px auto;
     font-size: 15px;
     background-color: azure;
     border-radius: 20px;

@@ -7,15 +7,15 @@ mrg_sort.addEventListener("click",()=>
     legend.innerHTML = `<table style="margin:1px auto">
     <tr>
         <td><div style="background: red;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Red bars represents the elements,before the middle position</td>
+        <td>Red bars represent the elements,before the middle position</td>
     </tr>
     <tr>
         <td><div style="background: pink;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Pink bars represents the elements,after the middle position</td>
+        <td>Pink bars represent the elements,after the middle position</td>
     </tr>
     <tr>
         <td><div style="background: yellow;height: 15px; width: 15px; border-radius: 20px;"></div></td>
-        <td>Yellow bars represents the elements,after the merging two sorted parts</td>
+        <td>Yellow bars represent the elements,after the merging two sorted parts</td>
     </tr>
 </table>`
     const ele=document.querySelectorAll(".small_bar");
