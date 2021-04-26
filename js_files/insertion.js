@@ -6,7 +6,6 @@ ins_sort.addEventListener('click', async function ()
 async function insert_sort() 
 {
     const ele = document.querySelectorAll(".small_bar");
-
     for (let i = 1; i < ele.length; i++) 
     {
         let hole=i;
