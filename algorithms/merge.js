@@ -3,7 +3,7 @@ var temp = [];
 mrg_sort.addEventListener("click",()=>
 {
     title.innerText="Merge Sort";
-    baki.innerText="Time Complexity:-O(n*log(n)) | Space Complexity:-O(1)";
+    baki.innerText="Time Complexity:-O(n*log(n)) | Space Complexity:-O(n)";
     legend.innerHTML = `<table style="margin:1px auto">
     <tr>
         <td><div style="background: red;height: 15px; width: 15px; border-radius: 20px;"></div></td>
