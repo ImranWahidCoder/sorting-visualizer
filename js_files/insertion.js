@@ -1,6 +1,22 @@
 const ins_sort=document.querySelector(".insertion_sort");
 ins_sort.addEventListener('click', async function () 
 {
+    title.innerText="Insertion Sort";
+    baki.innerText="Time Complexity:-O(n²) | Space Complexity:-O(1)";
+    legend.innerHTML = `<table style="margin:1px auto">
+    <tr>
+        <td><div style="background: red;height: 15px; width: 15px; border-radius: 20px;"></div></td>
+        <td>Red bars represents the elements,shifted to place the current element at correct position</td>
+    </tr>
+    <tr>
+        <td><div style="background: yellow;height: 15px; width: 15px; border-radius: 20px;"></div></td>
+        <td>Yellow bars represents the elements,just placed at correct position</td>
+    </tr>
+    <tr>
+        <td><div style="background: green;height: 15px; width: 15px; border-radius: 20px;"></div></td>
+        <td>Green bars represents the elements,placed at correct position</td>
+    </tr>
+</table>`
     await insert_sort();
 });
 async function insert_sort() 

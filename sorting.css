@@ -33,3 +33,44 @@
     color: blanchedalmond;
     font-weight: bold;
 }
+.detail
+{
+    border-radius: 0px 0px 20px 20px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: auto;
+    max-width: 60%;
+    text-align: center;
+    border: whitesmoke;
+}
+.title
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #282828;
+    border-radius: 10px;
+    color: blanchedalmond;
+    max-width: 30%;
+    margin: 0px auto;
+}
+.baki
+{
+    margin: 1px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.legend
+{
+    margin: 1px auto;
+    font-size: 15px;
+    background-color: azure;
+    border-radius: 20px;
+    max-width: 90%;
+    box-shadow: 5px 5px 5px gray;
+    padding: 5px;
+}
+.mark
+{
+    color: red;
+}

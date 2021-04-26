@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="sorting.css">
     <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Sorting Visualizer</title>
@@ -31,15 +33,15 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                         style="color: blanchedalmond; font-weight: bolder;">
-                        New Array
+                        Generate new Array
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Enter the number of elements</a>
-                        <input type="range" value="10" min="1" max="80"
+                        <input type="range" value="1" min="1" max="60"
                             oninput="this.nextElementSibling.value = this.value; add_bar(this.value)" class="select">
                         <output class="emnei">1</output>
                         <div class="dropdown-divider"></div>
-                        <p class="dropdown-item">Control the speed of operation</p>
+                        <p class="dropdown-item">Select the speed of operation</p>
                         <input type="range" value="1" min="1" max="10"
                             oninput="this.nextElementSibling.value = this.value;" class="speed">
                         <output class="emnei">1</output>
@@ -66,7 +68,13 @@
         </div>
     </nav>
 
+    <div class="detail">
+        <div class="title"></div>
+        <div class="baki"></div>
+        <div class="legend"></div>
+    </div>
     <div id="bars"></div>
+
     <script src="./js_files/sorting.js"></script>
     <script src="./js_files/bubble.js"></script>
     <script src="./js_files/insertion.js"></script>
