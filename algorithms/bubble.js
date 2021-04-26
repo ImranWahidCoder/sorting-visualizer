@@ -1,9 +1,4 @@
 const bubSortbtn = document.querySelector(".bubble_sort");
-const speed_ = document.querySelector(".speed").value;
-const title = document.querySelector(".title");
-const baki = document.querySelector(".baki");
-const legend = document.querySelector(".legend");
-let goti = (10 - speed_ + 1) * 100;
 bubSortbtn.addEventListener('click', async function () {
     title.innerText = "Bubble Sort";
     baki.innerText = "Time Complexity:- O(n²) | Space Complexity:- O(1)";
@@ -44,7 +39,6 @@ async function bubble() {
                 await animate(goti);
                 swap(ele[j], ele[j + 1]);
             }
-            console.log(ele[j].style.color);
             ele[j].style.border = "6px solid green";
             ele[j + 1].style.border = "6px solid green";
         }

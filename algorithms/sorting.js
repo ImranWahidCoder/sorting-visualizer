@@ -1,3 +1,8 @@
+const speed_ = document.querySelector(".speed").value;
+const title = document.querySelector(".title");
+const baki = document.querySelector(".baki");
+const legend = document.querySelector(".legend");
+let goti = (10 - speed_ + 1) * 10;
 let arr=[];
 const main_bar=document.querySelector("#bars");
 const add_bar=(no_of_bar)=>
