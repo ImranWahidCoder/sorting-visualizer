@@ -1,4 +1,4 @@
-# sorting-visualizer (https://imu-sorting-visualize.herokuapp.com/)
+# sorting-visualizer (https://imu-sorting-visualize.herokuapp.com/) 
 A web application that provides a visual representation of how different sorting algorithms work. 
 
 # 1. Set the configuration
