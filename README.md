@@ -37,5 +37,6 @@ Implementation of merge sort
 When the array is sorted, there will be an alert notifying that the array is sorted
 ![ok](https://user-images.githubusercontent.com/64454764/116239369-2e566b00-a780-11eb-82bf-bfd53b3ccfd5.JPG)
 
+You can visit the website :- https://imu-sorting-visualize.herokuapp.com/
 
 
