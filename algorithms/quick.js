@@ -50,8 +50,10 @@ const quick= async (ele,arr,start,end)=>
         ele[end].style.border="6px solid crimson";
         partitionIndex=await partition(arr,start,end);
         await animate(goti);
+        ele[end].style.border="6px solid white";
         ele[partitionIndex].style.border="6px solid pink";
         await animate(goti);
+        ele[partitionIndex].style.border="6px solid white";
         await quick(ele,arr,start,partitionIndex-1);
         for(i=start;i<partitionIndex;i++)
         {
