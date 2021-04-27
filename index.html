@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="sorting.css">
+    <link rel="shortcut icon" href="./images/brand.webp" type="image/x-icon">  
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
@@ -42,12 +43,29 @@
                         <output class="emnei">1</output>
                         <div class="dropdown-divider"></div>
                         <p class="dropdown-item">Select the speed of operation</p>
-                        <input type="range" value="1" min="1" max="10"
+                        <input type="range" value="5" min="1" max="10"
                             oninput="this.nextElementSibling.value = this.value;" class="speed">
-                        <output class="emnei">1</output>
+                        <output class="emnei">5</output>
                     </div>
                 </li>
             </ul>
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="color: blanchedalmond; font-weight: bolder;">
+                        Developer
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/imu2018/"><img src="./images/lactual.png" height="33px" width="33px" style="border-radius: 5px;" > Connect via LinkedIn</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/seems_like_imu/"><img src="./images/insta.jpg" height="38px" width="38px" style="border-radius: 10px; margin-right: 3px;">Follow on Instagram</a>
+                        <a class="dropdown-item" href="https://twitter.com/ImranWa15028888"><img src="./images/twitter.png" height="38px" width="38px" style="border-radius: 10px;"> Follow on Twitter</a>
+                    </div>
+                </li>
+            </ul>
+
+
             <form class="form-inline my-2 my-lg-0">
                 <button type="button" class="btn btn-primary bubble_sort"
                     style="margin: 10px; box-shadow: 3px 3px 5px blanchedalmond; border-radius: 8px;">Bubble

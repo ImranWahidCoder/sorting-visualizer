@@ -17,6 +17,12 @@ bubSortbtn.addEventListener('click', async function () {
     </tr>
 </table>`
     await bubble();
+    const ele=document.querySelectorAll(".small_bar");
+    if(ele.length>0)
+    {
+        await animate(goti);
+        alert("The array is sorted now");
+    }
 });
 
 // Used in async function so that we can so animations of sorting, takes input time in ms (1000 = 1s)

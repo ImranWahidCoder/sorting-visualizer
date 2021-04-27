@@ -2,7 +2,7 @@ const q_sort=document.querySelector(".quick_sort");
 q_sort.addEventListener("click",()=>
 {
     title.innerText="Quick Sort";
-    baki.innerHTML="Time Complexity:-O(n*log(n))(Average case), O(n²)(Worst case)</br>Space Complexity:-O(1)";
+    baki.innerHTML="Time Complexity:-O(n*log(n))(Average case), O(n²)(Worst case)</br>Space Complexity:-O(log(n))";
     legend.innerHTML = `<table style="margin:1px auto">
     <tr>
         <td><div style="background: aquamarine;height: 15px; width: 15px; border-radius: 20px;"></div></td>

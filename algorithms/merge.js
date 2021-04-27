@@ -106,4 +106,9 @@ const mergesort = async (ele,s, e) =>
 const performer = async (arr,ele) => 
 {
     await mergesort(ele,0, arr.length - 1);
+    if(ele.length>0)
+    {
+        await animate(goti);
+        alert("The array is sorted now");
+    }
 }

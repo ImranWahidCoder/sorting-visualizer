@@ -18,6 +18,12 @@ ins_sort.addEventListener('click', async function ()
     </tr>
 </table>`
     await insert_sort();
+    const ele=document.querySelectorAll(".small_bar");
+    if(ele.length>0)
+    {
+        await animate(goti);
+        alert("The array is sorted now");
+    }
 });
 async function insert_sort() 
 {
