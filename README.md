@@ -1,6 +1,6 @@
 # sorting-visualizer (https://imu-sorting-visualize.herokuapp.com/) 
 A web application that provides a visual representation of how different sorting algorithms work. 
-
+The logic for all the sorting algorithms are there in the "algorithms" directory. index.html is the only html file and style.css is the only css file, present in the this project. index.php is meant for deplying purpose.
 # 1. Set the configuration
 First the user needs to select the number of bars and control the speed of algorithm execution by moving the slider. Everytime user moves the slider, a random array
 will be generated.
