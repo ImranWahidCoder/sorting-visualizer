@@ -1,4 +1,4 @@
-# sorting-visualizer (https://imu-sorting-visualize.herokuapp.com/) 
+# sorting-visualizer (https://stunning-pastelito-25037d.netlify.app) 
 A web application that provides a visual representation of how different sorting algorithms work. 
 The logic for all the sorting algorithms are there in the "algorithms" directory. index.html is the only html file and style.css is the only css file, present in the this project. index.php is meant for deplying purpose.
 # 1. Set the configuration
@@ -37,6 +37,6 @@ Implementation of merge sort
 When the array is sorted, there will be an alert notifying that the array is sorted
 ![ok](https://user-images.githubusercontent.com/64454764/116239369-2e566b00-a780-11eb-82bf-bfd53b3ccfd5.JPG)
 
-You can visit the website :- https://imu-sorting-visualize.herokuapp.com/
+You can visit the website :- https://stunning-pastelito-25037d.netlify.app
 
 
